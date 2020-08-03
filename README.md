@@ -8,6 +8,8 @@
 - Linked In: https://linkedin.com/in/dinhhau1807
 - Codepen: https://codepen.io/dinhhau1807
 
+![Hi, I'm Hau](./dino.gif)
+
 <!--
 **dinhhau1807/dinhhau1807** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
