@@ -1,0 +1,58 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: v(default-font-size);
+    line-height: 1.7;
+    color: v(color-black);
+}
+
+.code {
+    font-family: 'consolas';
+}
+
+.hero {
+    color: v(color-white);
+
+    &__title {
+        font-size: 5rem;
+        font-weight: 700;
+    }
+
+    &__description {
+        font-size: 2rem;
+        font-weight: 300;
+    }
+}
+
+.heading {
+    font-size: 5rem;
+    font-weight: 700;
+    color: v(color-secondary-dark);
+    position: relative;
+    z-index: 1;
+
+    &::after {
+        content: attr(data-title);
+        color: v(color-secondary-light);
+        font-weight: 900;
+        position: absolute;
+        z-index: -1;
+        bottom: 0;
+        left: 50%;
+        line-height: 5rem;
+        transform: translate(-50%, -90%) scale(2);
+        overflow: hidden;
+    }
+}
+
+.heading-2 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: v(color-tertiary-dark);
+
+    &__description {
+        display: block;
+        font-weight: 400;
+        font-size: 1.7rem;
+    }
+}

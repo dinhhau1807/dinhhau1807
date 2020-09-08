@@ -1,0 +1,26 @@
+.section {
+    &:not(:first-child) {
+        margin-top: 15rem;
+    }
+}
+
+.section-about {
+    &__text {
+        text-align: justify;
+    }
+
+    &__contact {
+        margin-top: 2rem;
+
+        & li {
+            display: flex;
+            align-items: center;
+        }
+    }
+}
+
+.section-skills {
+    &__content>* {
+        margin-top: 3rem;
+    }
+}

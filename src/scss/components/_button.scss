@@ -1,0 +1,63 @@
+.btn {
+
+    &,
+    &:link,
+    &:visited {
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 1.5rem 4rem;
+        display: inline-block;
+        transition: all 0.2s;
+        position: relative;
+        font-size: 1.6rem;
+        outline: none;
+        border: 1px solid;
+
+        // Change for the <button> element
+        cursor: pointer;
+    }
+
+    &--primary {
+        color: v(color-white);
+        border: 1px solid;
+        transition: all .2s ease;
+        background-color: transparent;
+
+        &:hover {
+            color: v(color-black);
+            background-color: v(color-white);
+        }
+    }
+}
+
+.btn-back-to-top {
+
+    &,
+    &:link,
+    &:visited {
+        width: 6rem;
+        height: 6rem;
+        padding: .5rem;
+        border-radius: 100px;
+        border: 2px solid;
+        font-weight: 700;
+    }
+}
+
+.btn-download {
+
+    &,
+    &:link,
+    &:visited {
+        width: 13rem;
+        height: 13rem;
+        padding: .5rem;
+        border-radius: 100px;
+        font-weight: 700;
+        border: 2px dashed;
+
+        text-align: center;
+        display: flex;
+        align-items: center;
+    }
+}

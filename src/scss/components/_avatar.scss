@@ -1,0 +1,17 @@
+.avatar {
+    width: 30rem;
+    height: 30rem;
+    margin: 0 0 5rem 0;
+    border-radius: 50%;
+    background-image: url(../assets/images/avatar.png);
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(100%) contrast(100%);
+    overflow: hidden;
+    transition: background-image .5s ease;
+
+    &:hover {
+        background-image: url(../assets/images/avatar.jpg);
+        filter: grayscale(0%) contrast(150%);
+    }
+}

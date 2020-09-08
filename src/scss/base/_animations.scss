@@ -1,0 +1,21 @@
+@keyframes scroll-down-animation {
+    0% {
+        transform: scaleY(1);
+        transform-origin: bottom;
+    }
+
+    50% {
+        transform: scaleY(0);
+        transform-origin: bottom;
+    }
+
+    51% {
+        transform: scaleY(0);
+        transform-origin: top;
+    }
+
+    100% {
+        transform: scaleY(1);
+        transform-origin: top;
+    }
+}

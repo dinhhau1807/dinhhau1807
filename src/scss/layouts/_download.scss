@@ -1,0 +1,11 @@
+.download {
+    height: 15rem;
+    display: flex;
+    justify-content: center;
+
+    -webkit-clip-path: polygon(50% 100%, 0 0, 100% 0);
+    clip-path: polygon(50% 100%, 0 0, 100% 0);
+
+    background-color: v(color-black);
+    color: v(color-white);
+}

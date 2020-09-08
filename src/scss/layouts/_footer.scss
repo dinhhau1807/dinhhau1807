@@ -1,0 +1,23 @@
+.footer {
+    margin-top: -15rem;
+    height: 15rem;
+
+    -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+
+    background-color: v(color-black);
+    color: v(color-white);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    &__copy {
+        margin: 1rem;
+    }
+
+    &__top {
+        margin: 1rem;
+    }
+}

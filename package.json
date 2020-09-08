@@ -1,0 +1,27 @@
+{
+  "name": "resume-hau",
+  "private": true,
+  "version": "1.0.0",
+  "description": "[Resume] Hau Nguyen Dinh",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rimraf dist/*",
+    "build": "npm-run-all clean && parcel build ./src/*.html ./dist/",
+    "dev": "parcel ./src/*.html"
+  },
+  "author": "NĐHậu",
+  "license": "ISC",
+  "dependencies": {
+    "locomotive-scroll": "^3.6.1",
+    "mailgo": "^0.9.16",
+    "smooth-scrollbar": "^8.5.2",
+    "utils": "^0.3.1",
+    "vanilla-tilt": "^1.7.0"
+  },
+  "devDependencies": {
+    "npm-run-all": "^4.1.5",
+    "parcel-bundler": "^1.12.4",
+    "rimraf": "^3.0.2",
+    "sass": "^1.26.10"
+  }
+}

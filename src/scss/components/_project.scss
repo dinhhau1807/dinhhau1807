@@ -1,0 +1,19 @@
+.project {
+    &:not(:first-child) {
+        margin-top: 4rem;
+    }
+
+    &__image {
+        margin-top: 1rem;
+        width: 100%;
+        filter: grayscale(100%);
+
+        &:hover {
+            filter: grayscale(0%);
+        }
+    }
+
+    @include respond(phone) {
+        overflow: hidden;
+    }
+}

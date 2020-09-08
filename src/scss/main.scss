@@ -1,0 +1,28 @@
+// abstracts
+@import "abstracts/_functions";
+@import "abstracts/_mixins";
+@import "abstracts/_variables";
+
+// base
+@import "base/_reset";
+@import "base/_typography";
+@import "base/_animations";
+@import "base/_utilities";
+
+// components
+@import "components/_scrollbar";
+@import "components/_avatar";
+@import "components/_socials";
+@import "components/_scroll-down";
+@import "components/_button";
+@import "components/_list";
+@import "components/_project";
+
+// layouts
+@import "layouts/_header";
+@import "layouts/_download";
+@import "layouts/_wrapper";
+@import "layouts/_footer";
+
+// pages
+@import "pages/_resume";

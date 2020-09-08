@@ -1,0 +1,26 @@
+* {
+    scrollbar-width: thin;
+    /* Firefox */
+    -ms-overflow-style: none;
+    /* IE 10+ */
+
+    ::-webkit-scrollbar-track {
+        box-shadow: none;
+        -webkit-box-shadow: none;
+        background-color: transparent;
+    }
+
+    ::-webkit-scrollbar {
+        width: 0px;
+        background-color: transparent;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        background-color: v(color-secondary-dark);
+    }
+}
+
+.on-scrolling::-webkit-scrollbar {
+    width: 6px;
+}
