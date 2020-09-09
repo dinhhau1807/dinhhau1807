@@ -14,4 +14,8 @@
         background-image: url(../assets/images/avatar.jpg);
         filter: grayscale(0%) contrast(150%);
     }
+
+    @include respond(phone) {
+        background-image: url(../assets/images/avatar.jpg);
+    }
 }

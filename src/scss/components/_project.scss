@@ -4,6 +4,7 @@
     }
 
     &__image {
+        transition: filter 1s ease;
         margin-top: 1rem;
         width: 100%;
         filter: grayscale(100%);

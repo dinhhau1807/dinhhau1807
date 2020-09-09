@@ -7,8 +7,8 @@
   "scripts": {
     "start": "parcel ./src/*.html",
     "clean": "rimraf dist/*",
-    "build": "npm-run-all clean && parcel build ./src/*.html",
-    "deploy": "npm-run-all build && gh-pages -d dist"
+    "build": "npm-run-all clean && parcel build ./src/*.html --public-url /dinhhau1807",
+    "deploy": "gh-pages -d dist"
   },
   "homepage": "https//dinhhau1807.github.io/dinhhau1807",
   "author": "NĐHậu",

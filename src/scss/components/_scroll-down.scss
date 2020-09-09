@@ -1,12 +1,6 @@
 .scroll-down {
     width: 2px;
     height: 8rem;
-    overflow: hidden;
-    position: relative;
-
-    visibility: inherit;
-    opacity: 1;
-    transform: matrix(1, 0, 0, 1, -1, 0);
 
     &__line {
         width: 100%;

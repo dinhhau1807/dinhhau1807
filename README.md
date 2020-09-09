@@ -7,6 +7,7 @@
 - Twitter: https://twitter.com/dinhhau1807
 - Linked In: https://linkedin.com/in/dinhhau1807
 - Codepen: https://codepen.io/dinhhau1807
+- Website: https://dinhhau1807.github.io/dinhhau1807/
 
 ![Hi, I'm Hau](https://raw.githubusercontent.com/dinhhau1807/dinhhau1807/master/dino.gif)
 
