@@ -1,0 +1,52 @@
+.loader-container {
+    width: 100vw;
+    height: 100vh;
+    background-color: v(color-black);
+    position: fixed;
+    z-index: 1000;
+    transition: all .5s ease;
+}
+
+.loader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -2.7em;
+    margin-left: -2.7em;
+    width: 5.4em;
+    height: 5.4em;
+    background-color: transparent;
+
+    &__box {
+        position: absolute;
+        left: 0;
+        bottom: -.1em;
+        width: 1em;
+        height: 1em;
+        background-color: transparent;
+        border: .25em solid v(color-white);
+        border-radius: 15%;
+        transform: translate(0, -1em) rotate(-45deg);
+        animation: push 2.5s cubic-bezier(.79, 0, .47, .97) infinite;
+    }
+
+    &__hill {
+        position: absolute;
+        width: 7.1em;
+        height: 7.1em;
+        top: 1.7em;
+        left: 1.7em;
+        background-color: transparent;
+        border-left: .25em solid v(color-white);
+        transform: rotate(45deg);
+
+        &:after {
+            content: '';
+            position: absolute;
+            width: 7.1em;
+            height: 7.1em;
+            left: 0;
+            background-color: transparent;
+        }
+    }
+}
