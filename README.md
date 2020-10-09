@@ -9,7 +9,7 @@
 - Codepen: https://codepen.io/dinhhau1807
 - Website: https://dinhhau1807.github.io/dinhhau1807/
 
-![Hi, I'm Hau](https://raw.githubusercontent.com/dinhhau1807/dinhhau1807/master/dino.gif)
+![Hi, I'm Hau](https://raw.githubusercontent.com/dinhhau1807/dinhhau1807/main/dino.gif)
 
 <!--
 **dinhhau1807/dinhhau1807** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
