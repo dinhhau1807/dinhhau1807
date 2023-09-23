@@ -15,7 +15,7 @@
   "license": "ISC",
   "dependencies": {
     "mailgo": "^0.9.16",
-    "utils": "^0.3.1",
+    "utils": "^0.2.2",
     "vanilla-tilt": "^1.7.0"
   },
   "devDependencies": {
