@@ -1,7 +1,5 @@
 # Nguyễn Đình Hậu
-### Hi there 👋, I'm Hau. 
-
-🏫 I'm currently studying at the University of Science.
+### Hi there 👋. 
 
 ## Get in touch
 - Linked In: https://linkedin.com/in/dinhhau1807
